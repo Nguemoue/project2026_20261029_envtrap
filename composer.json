@@ -1,0 +1,11 @@
+{
+    "name": "nguemoue/envtrap",
+    "description": "One-file linter that catches Laravel env() calls outside config/ before config:cache blanks them in production.",
+    "type": "library",
+    "license": "MIT",
+    "bin": ["envtrap.php"],
+    "require": {
+        "php": ">=8.1",
+        "ext-tokenizer": "*"
+    }
+}
